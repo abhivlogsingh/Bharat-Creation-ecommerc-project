@@ -130,6 +130,9 @@ body {
     align-items: center;
 
 }
+#close{
+    display: none;
+}
 
 
 /* Home Page */
@@ -537,6 +540,10 @@ footer .follow i:hover, footer a:hover{
 
 
 @media (max-width: 850px) {
+
+  .section-p1{
+    padding: 40px 40px;
+  }  
   #navbar{
     display: flex;
     flex-direction: column;
@@ -573,14 +580,113 @@ footer .follow i:hover, footer a:hover{
     }
 
     #close{
+        text-decoration: none;
         position: absolute;
         top: 30px;
         left: 30px;
         color: black;
         font-size: 24px;
+        display: initial;
+    }
+    #lg-bag{
+        display: none;
+    }
 
+    #hero{
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #feature{
+        justify-content: center;
+    }
+    #feature .fe-box{
+        margin: 15px 15px;
+    }
+    #product1 .pro-container {
+        justify-content: center;       
+    }
+
+    #product1 .pro {
+        margin: 15px ;
+    }
+    #banner {
+        height: 25vh;
+    }
+    
+    #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+    }
+    #banner3{
+        padding: 0 40px;
+    }
+    
+    #newsletter .from{
+        width: 70%;
+    }
+    #newsletter input{
+        margin-top: 15px;
+        padding: 0 1.25em;
+       
     }
 }
+
+@media (max-width: 577px){
+    .section-p1{
+        padding: 20px;
+    }
+    #header{
+        padding: 10px 30px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 32px;
+    }
+
+    #hero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+    #feature{
+        justify-content: space-between;
+    }
+    #feature .fe-box{
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product .pro{
+        width: 100%;
+    }
+    #banner {
+        height: 40vh;
+    }
+    #sm-banner .banner-box{
+        height: 40vh;
+    }
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+    #banner3{
+        padding: 0 20px;
+    }
+    #banner3 .banner-box{
+        width: 100%;
+    }
+    #newsletter {
+        padding: 40px 20px;
+    }
+    #newsletter .from{
+        width: 100%;
+    }
+    
+
+}
+    
+    
 
 
 
