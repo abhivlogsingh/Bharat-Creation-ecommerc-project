@@ -678,9 +678,56 @@ footer a:hover {
   }
 
 
+  /* About Page  */
 
 
+  #about-header{
+    background-image: url("assests/about/banner.png");
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 18px;
+  }
+  
+  #about-header h2,
+  #about-header p {
+    color: #fff;
+  }
 
+  #about-head{
+    display: flex;
+    align-items: center;
+  }
+
+  #about-head img{
+    width: 50%;
+    height: 65vh;
+  }  
+  #about-head div{
+    padding-left: 40px;
+  }
+  #about-head p{
+    margin: 25px 0px;
+  }
+  
+
+  #about-app{
+    text-align: center;
+  }
+  #about-app .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+  }
+  #about-app .video video {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+  }
 
 
 
@@ -801,6 +848,20 @@ footer a:hover {
   }
 
 
+
+  /* About Page  */
+  #about-head{
+    display: flex;
+    align-items: center;
+  }
+
+  #about-head img{
+    width: 45%;
+    height: 45vh;
+  }  
+
+
+
 }
 
 
@@ -904,6 +965,33 @@ footer a:hover {
   }
 
 
+  /* About Page  */
+
+
+  #about-header{  
+    height: 30vh;
+  }
+  #about-head{
+    flex-direction: column; 
+  }
+  #about-head img{
+    width: 100%;
+    margin-bottom: 25px;
+  }  
+  #about-head div{
+    padding-left: 0px;
+  }
+  #about-head p{
+    margin: 25px 0px;
+  }
+  #about-app{
+    text-align: center;
+  }
+  #about-app .video{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
 
 
 }
